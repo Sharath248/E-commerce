@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products RedStore | E-commerce</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- responisve.css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+   <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo" width="125">
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="./account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="./images/cart.png" alt="cart" width="30px" height="30px">
+        <img src="./images/menu.png" alt="menu" class="menu-icon" onclick="myFunction()">
+    </div>
+</div>
+
+<!-- single product details -->
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="./images/exclusive.png" alt="gallery-1" width="100%" id="productImg">
+
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="./images/exclusive.png" alt="gallery-1" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="./images/exclusive.png" alt="gallery-1" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="./images/exclusive.png" alt="gallery-1" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="./images/exclusive.png" alt="gallery-1" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-2 detail-offer">
+            <p>Home / Smart Band 4</p>
+            <h1>Mi Smart Band 4</h1>
+            <h4>700 rs</h4>
+            <h4 class="d">350 rs/50% Off</h4>
+            <input type="number" value="1">
+            <a href="#" class="btn">Add To Cart</a>
+
+            <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+            <br>
+            <p>Give your Mi smart band 4 a style upgrade with fitness. Team it with a pair of shorts for your morning workout or a denims for a evening out with the guys.</p>
+        </div>
+    </div>
+</div>
+
+<!-- title -->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+    </div>
+</div>
+
+<div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <div class="products-content">
+                <img src="./images/product-9.jpg" alt="product-1">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$40.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="products-content">
+                <img src="./images/product-10.jpg" alt="product-1">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$48.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="products-content">
+                <img src="./images/product-11.jpg" alt="product-1">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$38.00</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="products-content">
+                <img src="./images/product-12.jpg" alt="product-1">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <div class="footer-content">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android amd ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png" alt="play-store">
+                        <img src="./images/app-store.png" alt="app-store">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <div class="footer-content-2">
+                    <img src="./images/logo-white.png" alt="logo">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+            </div>
+            <div class="footer-col-3">
+                <div class="footer-content-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-col-4">
+                <div class="footer-content-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copy">Copyright 2023 - by Sharath A</p>
+    </div>
+</section>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
